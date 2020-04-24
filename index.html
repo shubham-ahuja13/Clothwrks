@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="grid">
+        <div id="quiz">
+            
+            
+
+            <p id="question"></p>
+
+            <div class="button4" id="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+
+            </div>
+            <input type="text" name="answer" id="answerid">
+            <button id="nxt" onclick="submit(); document.getElementById('answerid').value = ''" >NEXT</button>
+        </div>
+    </div>
+
+<script src="quiz.js"></script>
+<script src="question.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

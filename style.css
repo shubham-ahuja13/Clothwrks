@@ -1,0 +1,97 @@
+body {
+    background-image: url("Capture.png");
+ 
+}
+
+
+
+.grid #question {
+    
+position: absolute;
+width: 800px;
+height: 33px;
+
+top: 130px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 33px;
+/* identical to box height */
+
+
+color: #FFE1B4;
+}
+
+.button4 {
+    margin-top: 220px;
+    margin-left: 20px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #292B2B;
+    width: 550px;
+    font-size: 18px;
+    color: #FFE1B4;
+    border: 3px solid #FFE1B4;
+    text-align: left;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+
+}
+
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #3D4040;
+    width: 560px;
+}
+#answerid {
+    width: 300px;
+    padding: 10px 10px;
+    margin-top: 220px;
+    margin-left: 20px;
+    border: 3px solid #FFE1B4;
+    background-color: #292B2B;
+    font-size: 18px;
+    color: #FFE1B4;
+   
+}
+
+#nxt {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFE1B4;
+    border: 0px;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: normal;
+    font-size: 18px;
+    color: #292B2B;
+}
+
+#nxt:hover
+{
+    cursor: pointer;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+#quiz 
+{
+    margin-left: 270px;
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 200px;
+    color: #FFE1B4;
+}
+
